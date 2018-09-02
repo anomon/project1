@@ -137,7 +137,7 @@ body{
 }
 
 .content {
-	color: #ffffff;
+	color: #000000;
 	font-family: 'Oswald', 'sans-serif';
 	text-align:center;
 	text-shadow: white;
@@ -227,6 +227,7 @@ h1{
 }
 h3{
 	padding-top: 25px;
+	color: grey;
 	margin: 0;
 	font-family: 'Oswald', 'sans-serif';
 	fint-style: oblique;
