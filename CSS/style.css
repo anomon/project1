@@ -9,25 +9,25 @@ body{
 }
 
 #bekgron4{
-	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(images/bg_7.jpg);
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("images/bg_7.jpg");
 	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
 }
 
 #bekgron3{
-	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(images\bg_6.jpg);
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("images/bg_6.jpg");
 	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
 }
 
 #bekgron2{
-	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(images\bg_3.jpg);
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("images/bg_3.jpg");
 	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
 }
 
 #bekgron{
-	background: linear-gradient(rgba(255,255,255, 0.3),rgba(255,255,255,0.5),rgba(255,255,255, 0.7), rgba(255,255,255, 0.9), rgba(255,255,255, 1)), url(images/bg_2.jpg);
+	background: linear-gradient(rgba(255,255,255, 0.3),rgba(255,255,255,0.5),rgba(255,255,255, 0.7), rgba(255,255,255, 0.9), rgba(255,255,255, 1)), url("images/bg_2.jpg");
 	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
 }
