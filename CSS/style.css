@@ -1,0 +1,233 @@
+*{
+	box-sizing: border-box;
+	font-family: 'arial', 'sans-serif';
+}
+
+body{
+	margin: 0;
+	font-size: 15px;
+}
+
+#bekgron4{
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(images/bg_7.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+#bekgron3{
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(images\bg_6.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+#bekgron2{
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(images\bg_3.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+#bekgron{
+	background: linear-gradient(rgba(255,255,255, 0.3),rgba(255,255,255,0.5),rgba(255,255,255, 0.7), rgba(255,255,255, 0.9), rgba(255,255,255, 1)), url(images/bg_2.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+#bio {
+    font-family: $font-style;
+    border-collapse: collapse;
+    width: 50vw;
+    height: 50vh;
+    color: ;$primary-color;
+    margin-top: 10px;
+}
+
+#bio td, #bio th {
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: black;
+}
+
+#bio tr:nth-child(even);
+
+#bio th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+#radius{
+	border-radius: 20%;
+}
+
+#pembuka{
+	color: #000000;
+	text-shadow: 1px 2px lightgrey;
+	text-align: center;
+	padding-top: 10px;	
+	font-family: 'Oswald', 'sans-serif';
+	font-style: oblique;
+}
+
+.container-fluid_1{
+	color: #000000;
+	text-shadow: 1px 2px lightgrey;
+	text-align: center;
+	padding-top: 10px;	
+	margin: 0;
+	font-family: 'Oswald', 'sans-serif';
+	font-style: oblique;
+}
+
+.container-fluid{
+
+	color: #000000;
+	max-height: 100vh;
+	text-shadow: 1px 2px lightgrey;
+	text-align: center;
+	padding-top: 10px;	
+	margin: 0;
+	font-family: 'Oswald', 'sans-serif';
+	font-style: oblique;
+}
+
+.tul{
+	color: black;
+	text-align: right;
+	position: right;
+	opacity:1;
+	z-index: 1;
+}
+
+.tul:hover{
+	overflow: visible;
+	color: #e6ffff;
+	opacity: 1
+}
+
+.fontstyle{
+	font-family: 'Oswald', 'sans-serif';
+	position: center;
+}
+
+.fontstyle:hover{
+	overflow: visible;
+	color: black;
+	text-shadow: 1px 2px lightgrey
+}
+
+.topnav{
+	overflow: hidden;
+	background-color: #1a1a1a;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color : #d9d9d9;
+	text-align: center;
+	padding : 15px 20px;
+	text-decoration: none;
+	margin-left: 15px;
+}
+
+.topnav a:hover {
+	display: block;
+	color: #333333;
+}
+
+.content {
+	color: #ffffff;
+	font-family: 'Oswald', 'sans-serif';
+	text-align:center;
+	text-shadow: white;
+	margin: 0;
+	height: 100vh;
+}
+
+.headerimg{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.edgy{
+	width:35%;
+	height:35%;
+	background-position: center;
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+      padding-top: 10px;
+  }
+
+.row{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.col{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.containerss{
+  position: relative;
+  width: 150px;
+}
+
+.imagess {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+}
+
+.containerss:hover .overlay {
+  opacity:0.8;
+}
+
+.text {
+font-family: 'Oswald', 'sans-serif';
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+
+h1{
+	color: grey;
+	font-family: 'Oswald', 'sans-serif';
+	font-style: oblique;
+	z-index: 1;
+	margin-left: 30px;
+}
+h3{
+	padding-top: 25px;
+	margin: 0;
+	font-family: 'Oswald', 'sans-serif';
+	fint-style: oblique;
+}
